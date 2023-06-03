@@ -30,6 +30,10 @@
 	line-height: 1.3;
 }
 
+.dark-theme .landing__title {
+	color: #fff;
+}
+
 .landing__para {
 	width: 63%;
 	line-height: 1.8;

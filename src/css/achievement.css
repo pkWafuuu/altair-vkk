@@ -2,6 +2,10 @@
 	background-color: #F9F9FD;
 }
 
+.dark-theme #achievement {
+	background-color: #020E2D;
+}
+
 .achievement__card--container {
 	width: 50%;
 	padding-right: 32px;
@@ -27,6 +31,14 @@
 	border-radius: 15px;
 	padding: 56px 16px;
 	box-shadow: 0 0 70px rgba(76, 64, 247, 0.08);
+}
+
+.dark-theme .achieve__card{
+	background-color: #4C40F7;
+}
+
+.dark-theme .section__title--achievement {
+	color: #fff;
 }
 
 .achieve__title {

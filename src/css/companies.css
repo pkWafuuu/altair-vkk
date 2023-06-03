@@ -18,6 +18,12 @@
 	brightness(92%) contrast(88%);
 }
 
+.dark-theme .company__logo {
+	filter: brightness(0) saturate(100%) invert(100%) 
+	sepia(1%) saturate(2518%) hue-rotate(174deg) 
+	brightness(118%) contrast(100%);
+}
+
 @media (max-width: 1024px) {
 	.company__logo--wrapper {
 		width: 25%;
