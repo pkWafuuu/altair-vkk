@@ -1,0 +1,72 @@
+#landing {
+	position: relative;
+}
+
+#landing::after {
+	background: url(../assets/Vectorwave1.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	content: "";
+  height: 100vh;
+  left: 0;
+	top: 0;
+  position: absolute;
+	z-index: -1;
+  width: 100vw;
+}
+
+.landing__container {
+	display: flex;
+	align-items: center;
+	height: calc(80vh - 100px);
+}
+
+.landing__content {
+	width: 50%;
+}
+
+.landing__title {
+	font-size: 48px;
+	line-height: 1.3;
+}
+
+.landing__para {
+	width: 63%;
+	line-height: 1.8;
+	margin-top: 24px;
+}
+
+.landing__button {
+	font-size: 12px;
+	font-weight: 600;
+	color: #fff;
+	background-color: #4C40F7;
+	padding: 16px 36px;
+	border-radius: 10px;
+	box-shadow: -5px 8px 25px rgba(76, 64, 247, 0.39);
+	display: flex;
+	align-items: center;
+	margin-top: 24px;
+}
+
+.btn__arrow {
+	font-size: 16px;
+	margin-left: 12px;
+}
+
+.landing__img--container {
+	position: relative;
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.blob1 {
+	position: absolute;
+}
+
+.blob2 {
+	position: absolute;
+}
+

@@ -1,0 +1,22 @@
+.doc__player {
+	margin-top: 48px;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+#documentation {
+	position: relative;
+}
+
+#documentation::before {
+	background: url(../assets/two-blobs.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	content: "";
+  height: 80%;
+  left: 0;
+	bottom: 0;
+  position: absolute;
+	z-index: -1;
+  width: 100%;
+}

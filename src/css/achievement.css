@@ -1,0 +1,86 @@
+#achievement {
+	background-color: #F9F9FD;
+}
+
+.achievement__card--container {
+	width: 50%;
+	padding-right: 32px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.achieve__card--wrapper {
+	width: 50%;
+}
+
+.achieve__card--wrapper:nth-child(odd) {
+	padding: 32px 16px 0 0;
+}
+
+.achieve__card--wrapper:nth-child(even) {
+	padding: 0 0 32px 16px;
+}
+
+.achieve__card {
+	background-color: #FFF;
+	text-align: center;
+	border-radius: 15px;
+	padding: 56px 16px;
+	box-shadow: 0 0 70px rgba(76, 64, 247, 0.08);
+}
+
+.achieve__title {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.achieve__para {
+	margin-top: 16px;
+}
+
+.achievement__text--container {
+	width: 50%;
+	padding-left: 32px;
+}
+
+.section__title--achievement {
+	text-align: left !important;
+	font-size: 48px;
+}
+
+.achievement__text--para {
+	margin-top: 32px;
+}
+
+.achievement__provide--list {
+	margin-top: 32px;
+}
+
+.achievement__provide {
+	display: flex;
+	align-items: center;
+	margin-top: 12px;
+}
+
+.achieve__icon--wrapper {
+	height: 25px;
+	min-width: 25px;
+	margin-right: 24px ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #4C40F7;
+	border-radius: 50px;
+	padding: 2px;
+}
+
+.achieve__icon {
+	font-size: 12px;
+	height: 100%;
+	width: 100%;
+	filter: brightness(0) saturate(100%) invert(100%) 
+	sepia(100%) saturate(0%) hue-rotate(288deg) 
+	brightness(102%) contrast(102%);
+}
+
+
