@@ -1,4 +1,3 @@
-import Grid from "@mui/material/Grid";
 import amazon from "../assets/company-logos/amazon.svg";
 import jeep from "../assets/company-logos/jeep.svg"
 import careem from "../assets/company-logos/careem.svg";

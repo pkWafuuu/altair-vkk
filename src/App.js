@@ -1,6 +1,7 @@
 import Achievement from "./components/Achievement";
 import Companies from "./components/Companies";
 import Documentation from "./components/Documentation";
+import Faqs from "./components/Faqs";
 import Landing from "./components/Landing";
 import Nav from "./components/Nav";
 import Quotes from "./components/Quotes";
@@ -18,6 +19,7 @@ function App() {
 			<WorkSpace />
 			<Companies />
 			<Quotes />
+			<Faqs/>
     </div>
   );
 }
