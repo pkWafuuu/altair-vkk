@@ -1,5 +1,4 @@
-import  blob1  from '../assets/blob-1.png'
-import  blob2  from '../assets/blob-2.png'
+import  landing  from '../assets/landing-img.png'
 import { BsArrowRight } from 'react-icons/bs'
 
 function Landing() {
@@ -19,8 +18,7 @@ function Landing() {
 						<button className="landing__button">Get Started <BsArrowRight className='btn__arrow' /></button>
           </div>
 					<div className="landing__img--container">
-						<img src={blob1} alt="blob" className="blob1"/>
-						<img src={blob2} alt="blob" className="blob2"/>
+						<img src={landing} alt="blob" className="landing__img"/>
 					</div>
         </div>
       </div>
