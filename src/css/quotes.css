@@ -1,0 +1,36 @@
+#quotes {
+	background-color: #FE9602;
+}
+
+.row__quote {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+
+.quote__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #fff;
+}
+
+.quote__content {
+	width: 80%;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+}
+
+.quote__person--container {
+	text-align: center;
+	font-weight: 600;
+	margin: 32px 0 32px 0;
+}
+
+.quote__person--position {
+	margin-top: 12px;
+}
+
