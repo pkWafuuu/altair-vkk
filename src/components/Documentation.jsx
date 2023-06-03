@@ -16,7 +16,7 @@ function Documentation() {
               url={video}
 							height="100%"
               width="100%"
-              controls="true"
+              controls={true}
             />
           </div>
         </div>

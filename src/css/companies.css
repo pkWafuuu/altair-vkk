@@ -1,0 +1,39 @@
+.companies__logo--container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.company__logo--wrapper {
+	width: calc(100%/5);
+	display: flex;
+	height: 120px;
+	padding: 32px;
+}
+
+.company__logo {
+	width: 100%;
+	filter: brightness(0) saturate(100%) invert(74%) 
+	sepia(8%) saturate(519%) hue-rotate(197deg) 
+	brightness(92%) contrast(88%);
+}
+
+@media (max-width: 1024px) {
+	.company__logo--wrapper {
+		width: 25%;
+	}
+}
+
+@media (max-width: 768px) {
+	.company__logo--wrapper {
+		width: calc(100% / 3)
+	}
+}
+
+@media (max-width: 640px) {
+	.company__logo--wrapper {
+		width: 50%;
+	}
+}
+
+
