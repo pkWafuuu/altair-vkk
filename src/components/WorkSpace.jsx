@@ -15,26 +15,33 @@ function WorkSpace() {
           <h2 className="section__title">
             Let’s meet our interior room decoration
           </h2>
-          <Grid container justifyContent="center" alignItems="stretch" >
-            <Grid>
-              <img src={work1} alt="alt" />
-            </Grid>
-            <Grid>
-              <img src={work2} alt="alt" />
-            </Grid>
-            <Grid>
-              <img src={work3} alt="alt" />
-            </Grid>
-            <Grid>
-              <img src={work4} alt="alt" />
-            </Grid>
-            <Grid>
-              <img src={work5} alt="alt" />
-            </Grid>
-            <Grid>
-              <img src={work6} alt="alt" />
-            </Grid>
-          </Grid>
+
+					<Grid container columnSpacing={3} justifyContent="center" className="grid__container">
+						<Grid item>
+							<Grid item className="column">
+								<img src={work1} alt="" />
+							</Grid>
+							<Grid item>
+								<img src={work4} alt="" />
+							</Grid>
+						</Grid>
+						<Grid item>
+							<Grid item className="column">
+								<img src={work2} alt="" />
+							</Grid>
+							<Grid item>
+								<img src={work5} alt="" />
+							</Grid>
+						</Grid>
+						<Grid item>
+							<Grid item className="column">
+								<img src={work3} alt="" />
+							</Grid>
+							<Grid item>
+								<img src={work6} alt="" />
+							</Grid>
+						</Grid>
+					</Grid>
         </div>
       </div>
     </section>
